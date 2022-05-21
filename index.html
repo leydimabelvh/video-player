@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="player">
+            <video id="video" poster="./assets/images/poster.jpg" src="./assets/videos/hawaii-by-tobjan.mp4" width="500">Browser doesn't support the video.</video>
+            <div class="player-overlay">
+                <h2 class="player-title">'Hawaii' by Tobjan</h2>
+                <div class="player-action">
+                    <button class="button" id="backward" aria-label="Back 10 seconds" title="Back 10 seconds"></button>
+                    <button class="button" id="play" aria-label="Play" title="Play"></button>
+                    <button class="button" id="pause" hidden aria-label="Pause" title="Pause"></button>
+                    <button class="button" id="forward" aria-label="Forward 10 seconds" title="Forward 10 seconds"></button>                
+                </div>        
+                <div class="player-progress">
+                    <input type="range" name="" id="progress" value="0" min="1" max="100" step="1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Video Player</title>
+</head>
+<body>
+  <h1>Video Player</h1>
+  <p>Con este proyecto podrás construir la interfaz de un reproductor de video.
+    Crea un proyecto con los mejores trucos y buenas prácticas de desarrollo.
+    Disfruta de tus videos favoritos creando un reproductor de video personalizado.</p>
+  <h2>No te rindas</h2>
+  <h3><a href="https://leonidasesteban.com/" target="_blank">leonidasesteban.com</a></h3>
+  <h4><a href="https://leonidasesteban.com/proyectos" target="_blank">leonidasesteban.com/proyectos</a></h4>
+  <h5><a href="https://leonidasesteban.com/proyectos/todos" target="_blank">leonidasesteban.com/proyectos/todos</a></h5>
+</body>
+</html> -->
